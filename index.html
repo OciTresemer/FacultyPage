@@ -1,1 +1,165 @@
-Hello der
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <style>
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 550px}
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+
+  .col-sm-4 {
+    width: 310px;
+  }
+
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {height: auto;} 
+  }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse visible-xs navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Dashboard/a></li>
+          <li><a href="#">Age</a></li>
+          <li><a href="#">Gender</a></li>
+          <li><a href="#">Geo</a><li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row content">
+        <div class="col-sm-3 sidenav hidden-xs">
+          <h2>This is a Logo</h2>
+          <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#section1">Dashboard</a></li>
+            <li><a href="#section2">Age</a></li>
+            <li><a href="#section3">Gender</a></li>
+            <li><a href="#section3">Geo</a></li>
+          </ul><br>
+        </div>
+        <br>
+
+        <div class="col-sm-9">
+          <div class="well">
+            <h4>Dashboard</h4>
+            <p>Seattle Academy Faculty</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="well">
+                <h4><img src="http://saasmath.seattleacademy.org/facultypics/Johns-David.jpg" height="200" width="175"></h4>
+                <button data-toggle="collapse" data-target="#x">David Johns</button>
+                <div id="x" class="collapse">
+                  <p>(Mathematics; Coach)</p> B.A., University of California at San Diego; M.E., Seattle University. David came to Seattle Academy after several years as a math instructor at Seattle Country Day School, while also serving as their athletic director. Before that, he was a middle school computer teacher and specialist in La Jolla, California. David says, simply, “I adore teaching and coaching! I thoroughly enjoy creating enthusiastic, dynamic, and challenging lessons that engage students.”
+                </div> 
+
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <h4><img src="http://saasmath.seattleacademy.org/facultypics/Gough-Jason.jpg" height="200" width="175"></h4>
+                <button data-toggle="collapse" data-target="#z">Jason Gough</button>
+                <div id="z" class="collapse">
+                  <p>(Mathematics; Coach)</p>  B.A., University of Puget Sound; M.A., University of Wisconsin-Milwaukee; M.A., Breadloaf School. Jason taught at the Western Reserve Academy in Hudson, Ohio, from 2007-2010. He has taught everything from Freshman Composition to AP Literature and Composition and served as a student advisor, club advisor, and coached track, cross country, and football. He also worked in admissions at the post-secondary level at the University of Puget Sound.
+                </div> 
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <h4><img src="http://saasmath.seattleacademy.org/facultypics/Retz-Steve.jpg" height="200" width="175"></h4>
+                <button data-toggle="collapse" data-target="#e">Steve Retz</button>
+                <div id="e" class="collapse">
+                  <p>(Mathematics; Coach)</p> B.A., St. Olaf College; M.A., Brown University. Prior to SAAS, Steve taught high school students and adults in Tangier, Morocco, and also worked as a site coordinator in an after-school tutoring program for at-risk children. Says Steve, “I want to help students learn that history is so much more than names and dates. The really important questions to ask about history go beyond ‘what happened,’ and focus on ‘how’ and ‘why.’ This makes history relevant for us in the present.” Steve leads a contingent of SAAS youth legislature students to Olympia each year to write bills that frequently make it onto the docket for debate on the senate and house floor.
+                </div> 
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="well">
+                <h4><img src="http://saasmath.seattleacademy.org/facultypics/Bustamante-Julio.jpg" height="200" width="175"></h4>
+                <button data-toggle="collapse" data-target="#i">Julio Bustamante</button>
+                <div id="i" class="collapse">
+                  <p>(Mathematics; Coach)</p>  B.A., University of Washington; certification, University of North Carolina. Julio has taught at both the middle and high school levels at Lakeside and Evergreen. Prior to moving to Seattle, he also taught Spanish at North Mecklenburg High School and the Davidson Center in North Carolina and was a private instructor, tutor, and teacher in Katmandu, Nepal. He has been recognized by the Ambassador of the US for his leadership activity in Nepal.
+                </div> 
+              </div>
+
+            </div>
+          </div>  <!--closing first rowv-->
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="well">
+                <p><img src="http://saasmath.seattleacademy.org/facultypics/Kunasek-Shelley.jpg" height="200" width="175"></p> 
+                <button data-toggle="collapse" data-target="#o">Shelly Kunasek</button>
+                <div id="o" class="collapse">
+                  <p>(Mathematics; Coach)</p> B.A., Pomona College; M.I.T., Ph.D,  University of Washington. Shelley taught science at the middle and high school level, as well as at the University of Washington and Highline Community College. She also served as a research assistant with the Earth and Space Sciences & Atmospheric Sciences and the UW. Shelley is the conference founder of the UW Graduate Climate Conference, and was a member of the Seattle Riot 2005 National Champion Women’s Ultimate Frisbee Team. In addition to living in West Africa, France, and Greenland, Shelley’s outside interests include crafting, gardening, hiking, and cross country skiing.
+                </div>  
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="well">
+                <p><img src="http://saasmath.seattleacademy.org/facultypics/Hofmann-Ed.jpg" height="200" width="175"></p> 
+                <button data-toggle="collapse" data-target="#k">Ed Hoffman</button>
+                <div id="k" class="collapse">
+                  <p>(Mathematics; Coach)</p> State University of New York. Ed has been designing scenery and lighting in Seattle for the past ten years. His work has been seen at the AHA! Theatre, Bathhouse Theatre, Ethnic Cultural Theatre, Tacoma Little Theatre, and elsewhere. He formerly held the positions of Production Designer and Tech Director for Seattle Central Community College Drama and for The Conciliation Project.
+                </div> 
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="well">
+                <p><img src="http://saasmath.seattleacademy.org/facultypics/Smith-Sarah.jpg" height="200" width="175"></p> 
+                <button data-toggle="collapse" data-target="#d">Sarah Smith</button>
+                <div id="d" class="collapse">
+                  <p>(Mathematics; Coach)</p>  B.A., Emory University; certification, Oglethorpe University.  Sarah operated her own company for several years prior to arriving at Seattle Academy, tutoring in math, science, English, and history, as well as conducting SAT preparation classes. She taught math and science at Seattle’s Meany Middle School when she arrived in Seattle from Georgia and, before that, Boston, where she taught middle school math and science. Joining the SAAS ranks of multi-faceted faculty and staff, Sarah has also been a member of the United States national rowing team, and was an alternate on the United States Olympic Rowing Team in the Athens Olympic Games in 2004.
+                </div> 
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="well">
+                <p>Text</p> 
+                <!-- <p>Text</p>  -->
+                <p>Text</p> 
+              </div>
+            </div>
+          </div><!--closing second row-->
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="well">
+                <p>Text</p> 
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="well">
+                <p>Text</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </body>
+    </html>
+
